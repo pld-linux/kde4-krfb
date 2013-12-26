@@ -8,12 +8,12 @@
 Summary:	Virtual Desktops
 Summary(pl.UTF-8):	Wirtualne biurka
 Name:		kde4-krfb
-Version:	4.11.4
+Version:	4.12.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	b2fb10c6bb59f385876926a4e4fa8754
+# Source0-md5:	41a9019702bc7637f5431d7fdd9fbcb9
 URL:		http://www.kde.org/
 BuildRequires:	Qt3Support-devel >= %{qtver}
 BuildRequires:	QtOpenGL-devel >= %{qtver}
@@ -31,7 +31,7 @@ BuildRequires:	gmp-devel
 BuildRequires:	gpgme-devel
 BuildRequires:	jasper-devel
 BuildRequires:	kde4-kdebase-devel >= %{version}
-BuildRequires:	kde4-kdebase-workspace-devel >= %{version}
+BuildRequires:	kde4-kdebase-workspace-devel >= 4.11.4
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	kde4-kdepimlibs-devel >= %{version}
 BuildRequires:	libgadu-devel >= 1.8.0
