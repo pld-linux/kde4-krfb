@@ -71,7 +71,7 @@ Requires:	kde4-kdebase >= %{version}
 # needed for /usr/share/telepathy
 Requires:	telepathy-mission-control
 Suggests:	rdesktop
-Obsoletes:	kde4-kdenetwork-kopete-tool-alias
+Obsoletes:	kde4-kdenetwork-%{orgname}
 Obsoletes:	kdenetwork4
 Conflicts:	kdenetwork4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
