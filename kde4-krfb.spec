@@ -8,12 +8,12 @@
 Summary:	Virtual Desktops
 Summary(pl.UTF-8):	Wirtualne biurka
 Name:		kde4-krfb
-Version:	4.14.0
+Version:	4.14.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	c130cf8ad2551de14f8dd9a6a32121d9
+# Source0-md5:	fbdb85991883242084959288905e1356
 URL:		http://www.kde.org/
 BuildRequires:	Qt3Support-devel >= %{qtver}
 BuildRequires:	QtOpenGL-devel >= %{qtver}
