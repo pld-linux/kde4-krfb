@@ -47,7 +47,6 @@ BuildRequires:	libxml2-progs
 BuildRequires:	libxslt-devel >= 1.0.7
 BuildRequires:	meanwhile-devel >= 1.0.1
 BuildRequires:	mediastreamer-devel >= 2.3.0
-BuildRequires:	msilbc-devel >= 2.0.1
 BuildRequires:	openssl-devel >= 0.9.7d
 BuildRequires:	ortp-devel >= 0.16.1-3
 BuildRequires:	pcre-devel
